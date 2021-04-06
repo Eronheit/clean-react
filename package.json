@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests", 
-    "test:watch": "npm test -- --watch", 
+    "test": "jest --passWithNoTests",
+    "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
   },
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/faker": "^5.5.0",
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
@@ -22,6 +23,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^5.0.0",
+    "faker": "^5.5.2",
     "git-commit-msg-linter": "^3.1.0",
     "husky": "^4.3.8",
     "jest": "^26.6.3",
