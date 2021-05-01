@@ -12,7 +12,7 @@ describe('EmailValidation', () => {
   })
 
   test('Should return falsy if email is valid', () => {
-    const sut = new EmailValidation(faker.random.word())
+    const sut = makeSut()
     const error = sut.validate(faker.internet.email())
     expect(error).toBeFalsy()
   })
