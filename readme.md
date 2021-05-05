@@ -1,1 +1,2 @@
 [![Build Status](https://travis-ci.com/Eronheit/clean-react.svg?branch=main)](https://travis-ci.com/Eronheit/clean-react)
+[![Coverage Status](https://coveralls.io/repos/github/Eronheit/clean-react/badge.svg?branch=main)](https://coveralls.io/github/Eronheit/clean-react?branch=main)
