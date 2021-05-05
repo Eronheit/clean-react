@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/Eronheit/clean-react.svg?branch=main)](https://travis-ci.com/Eronheit/clean-react)
